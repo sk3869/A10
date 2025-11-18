@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Cookie Demo</title>
+</head>
+<body>
+  <h1>Cookie Demo</h1>
+  <button onclick="document.cookie='myCookie=HelloWorld';">Set Cookie</button>
+  <p id="output"></p>
+
+  <script>
+    // Show cookies on page load
+    document.getElementById("output").textContent = "Cookies: " + document.cookie;
+  </script>
+</body>
+</html>
